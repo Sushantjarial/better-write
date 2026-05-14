@@ -23,7 +23,6 @@ export async function chatComplete(opts: ChatCompleteOptions): Promise<string> {
     },
     body: JSON.stringify({
       model: opts.model,
-      temperature: 0.3,
       stream: false,
       messages: [
         { role: "system", content: opts.systemPrompt },
