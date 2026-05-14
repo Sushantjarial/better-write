@@ -2,6 +2,9 @@
 
 A Raycast extension that rewrites whatever text you have selected — fix grammar, rephrase, make it friendlier, or make it more professional — using any OpenAI-compatible LLM provider with your own API key.
 
+<img width="750" height="259" alt="image" src="https://github.com/user-attachments/assets/0c3c6089-627f-4d60-877d-b15a0c222a83" />
+
+
 ## Features
 
 - **Fix Grammar** — corrects grammar, spelling, and punctuation while preserving your voice.
