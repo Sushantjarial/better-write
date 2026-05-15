@@ -2,7 +2,8 @@
 
 A Raycast extension that rewrites whatever text you have selected — fix grammar, rephrase, make it friendlier, or make it more professional — using any OpenAI-compatible LLM provider with your own API key.
 
-<img width="750" height="259" alt="image" src="https://github.com/user-attachments/assets/0c3c6089-627f-4d60-877d-b15a0c222a83" />
+<img width="749" height="292" alt="image" src="https://github.com/user-attachments/assets/dea86a96-eb89-4111-98b9-220bf9817d80" />
+
 
 
 ## Features
