@@ -41,6 +41,13 @@
       "description": "Rewrite the selected text in a professional tone",
       "mode": "no-view",
       "icon": "make-professional.png"
+    },
+    {
+      "name": "expand",
+      "title": "Expand",
+      "description": "Expand the selected text to provide more detail and depth",
+      "mode": "no-view",
+      "icon": "expand.png"
     }
   ],
   "preferences": [
@@ -98,6 +105,14 @@
       "required": false,
       "default": "Rewrite the user's text in a clear, professional tone suitable for business communication. Keep the meaning intact. Return only the rewritten text, with no preamble, explanation, or quotation marks.",
       "description": "System prompt used by Make Professional"
+    },
+    {
+      "name": "expandPrompt",
+      "title": "Expand Prompt",
+      "type": "textfield",
+      "required": false,
+      "default": "Expand the user's text to provide more detail and depth while maintaining the original meaning. Return only the expanded text, with no preamble, explanation, or quotation marks.",
+      "description": "System prompt used by Expand"
     }
   ],
   "dependencies": {

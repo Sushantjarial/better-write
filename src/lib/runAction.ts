@@ -10,6 +10,7 @@ interface Preferences {
   rephrasePrompt?: string;
   friendlyPrompt?: string;
   professionalPrompt?: string;
+  expandPrompt?: string;
 }
 
 const PROMPT_PREF_KEY: Record<ActionKey, keyof Preferences> = {
@@ -17,6 +18,7 @@ const PROMPT_PREF_KEY: Record<ActionKey, keyof Preferences> = {
   rephrase: "rephrasePrompt",
   friendly: "friendlyPrompt",
   professional: "professionalPrompt",
+  expand: "expandPrompt",
 };
 
 export async function runAction(action: ActionKey): Promise<void> {
