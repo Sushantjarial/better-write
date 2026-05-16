@@ -12,6 +12,7 @@ A Raycast extension that rewrites whatever text you have selected — fix gramma
 - **Rephrase** — rewrites for clarity and flow at similar length.
 - **Make Friendly** — warmer, more conversational tone.
 - **Make Professional** — clean, business-appropriate tone.
+- **Expand** — Add more detail and improve clarity.
 
 Each action is a separate Raycast command, so you can assign a different hotkey to each one. The selection is replaced in place with the rewrite — no extra confirmation step.
 
